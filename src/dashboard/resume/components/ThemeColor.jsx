@@ -6,7 +6,7 @@ import {
   } from "@/components/ui/popover"
 import { Button } from '@/components/ui/button'
 
-import { ResumeInfoContext } from '@/context/ResumeInfoContext'
+import { ResumeInfoContext } from '../../../Context/ResumeInfoContext'
 import GlobalApi from './../../../../service/GlobalApi'
 import { useParams } from 'react-router-dom'
 import { toast } from 'sonner'

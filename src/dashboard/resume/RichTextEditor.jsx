@@ -1,5 +1,5 @@
 import { Button } from '@/components/ui/button';
-import { ResumeInfoContext } from '@/context/ResumeInfoContext';
+import { ResumeInfoContext } from '../../Context/ResumeInfoContext';
 import { Brain, LoaderCircle } from 'lucide-react';
 import React, { useContext, useState } from 'react';
 import {
